@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}  
+/*start header1*/
+.head{
+    padding: 1rem;
+    display: flex;
+    max-height: 10%;
+}
+h1{
+    font-size: 4rem;
+    color: #ff7520;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+/*end header1*/ 
+
+/*start header2*/
+.som{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.hhr{
+    margin-left: 0.4em;
+    margin-right: 0.4em ;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: inherit;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    transition: transform 0.6s ease, color 0.6s ease ;
+    transition: background-color 0.7s ease, transform 0.3s ease;
+}
+.hhr:hover{
+    transform: translateY(-5px);
+    background-color: #ff7520;
+}
+.hhr.hhr::cliked{
+    transform: translateY(-5px);
+    background-color: #ff7520;
+}
+/*end header2*/
+/*start section 1*/
+.section-one{
+    max-height: 300px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    width: 50%;
+    max-height: 50%;
+    margin: 10%;
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+}
+.me{
+    height: 30%;
+    width: 30%;
+    margin: 1rem;
+}
+/*end section 1*/
+
+/*start section 2*/
+.section-two{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cards{
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 15px;
+    width: 190px;
+    height: 80%;
+    background-color: #b8aa93;
+}
+.image-card{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 1rem;
+}
+.tag-div{
+    border-radius: 15px;
+    width: 50%;
+    height: 40px;
+    background-color: #FF7F50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.hhr-two{  
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.6s ease, color 0.6s ease ;
+    transition: background-color 0.7s ease, transform 0.3s ease;
+}
+.hhr-two:hover{
+    transform: translateY(-5px);
+    background-color: #FF7F50;
+}
+/*end section 2*/
+/*start section 3*/
+.section-three{
+    width:100%;
+    height: 200px;
+    background-color: #FF7F50;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    margin: auto;
+}
+.sync-div{
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom:0;
+}
+.img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.github-icon{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 30%;
+    height: 30%;
+}
+.mail-icon{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 30%;
+    height: 30%;
+}
+.phone-icon{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 30%;
+    height: 30%;
+}
+.icons{
+    transition: all 0.3s ease-in-out;
+}
+.icons:hover{
+    /* Hover effects 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); Shadow */
+    transform: scale(1.1); /* Pop-up effect */
+}
+
+/*end section 3*/
